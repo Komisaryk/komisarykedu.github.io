@@ -153,8 +153,22 @@
         
         <section class="modal modal-feedback">
             <h2>Мы обязательно вам ответим</h2>
-            <!-- Здесь будет форма -->
-            <span class="modal-close">x</span>
+            <form>
+                <p>
+                    <label class="visually-hidden" for="user-name">Ваше имя</label>
+                    <input class="feedback-icon" type="text" id="user-name" name="name" placeholder="Как вас зовут?" >
+                </p>
+                <p>
+                    <label class="visual-hidden" for="user-email">Ваш email</label>
+                    <input class="feedback-icon" id="user-email" type="text" name="email" placeholder="Ваша почта для ответа?">
+                </p>
+                <p>
+                    <label class="visually-hidden" for="user-message">Ваше собщение</label>
+                    <textarea class="feedback-area" id="user-message" name="message" placeholder="Напишите что-нибудь..."></textarea>
+                </p>
+                <button class="button" type="submit">Отправить</button>
+            </form>
+            <button class="modal-close" type="button">Закрыть</button>
         </section>
         
         <section class="modal modal-search">
