@@ -44,7 +44,21 @@
             </ul>
             
             <section class="forms">
-                <!-- здесь будут формы -->
+                <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+                    <fieldset>
+                        <legend>Сортировка</legend>
+                        <select class="drop-list" size="1">
+                            <option value="popular">по популярности</option>
+                            <option value="cheep">сначала недорогие</option>
+                            <option value="costly">сначала дорогие</option>
+                            <option value="fat">по жирности</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Цена: 100 руб</legend>
+                    </fieldset>
+                    
+                </form>
             </section>
             
             <section class="catalog">
@@ -223,7 +237,7 @@
             </ul>
             <hr>
             <b class="basket-all-cost">Итого: 750 руб.</b>
-            <!-- Здесь будет кнопка -->
+            <button class="basket-button" type="submit">Оформить заказ</button>
         </section>
     </body>
 </html>
