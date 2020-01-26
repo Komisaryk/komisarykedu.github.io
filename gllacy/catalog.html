@@ -55,8 +55,55 @@
                         </select>
                     </fieldset>
                     <fieldset>
-                        <legend>Цена: 100 руб</legend>
+                        <legend>Цена: 100 руб. - 500 руб.</legend>
                     </fieldset>
+                    <fieldset>
+                        <legend>Жирность:</legend>
+                        <ul>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-radio" id="filter-0%" type="radio" name="0%">
+                                <label for="filter-0%">0%</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-radio" id="filter-10%" type="radio" name="10%" checked>
+                                <label for="filter-10%">до 10%</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-raduio" id="filter-30%" type="radio" name="30%">
+                                <label for="filter-30%">до 30%</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-radio" id="filter-30%+" type="radio" name="30%+">
+                                <label for="filter-30%+">выше 30%</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Наполнители:</legend>
+                        <ul>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-chocolate" type="checkbox" name="chocolate" checked>
+                                <label for="filter-chocolate">шоколадные</label>
+                            </li>
+                            <li class="filter-optioon">
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-sugar" type="checkbox" name="sugar" checked>
+                                <label for="filter-sugar">сахарные присыпки</label>
+                            </li>
+                            <li class="filter-optioon">
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-fruits" type="checkbox" name="fruits">
+                                <label for="filter-fruits">фрукты</label>
+                            </li>
+                            <li class="filter-optioon">
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-syrup" type="checkbox" name="syrup">
+                                <label for="filter-syrup">сиропы</label>
+                            </li>
+                            <li class="filter-optioon">
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-jam" type="checkbox" name="jam">
+                                <label for="filter-jam">джемы</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <button class="filter-button" type="submit">Применить</button>
                     
                 </form>
             </section>
