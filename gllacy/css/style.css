@@ -37,3 +37,43 @@ a {
 .main-navigation a{
     color:#ffffff;
 }
+
+.work-time {
+    font-weight: 700;
+    text-align: right;
+}
+
+.phone-number {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.slider-list {
+    list-style: none;
+}
+
+.slider-text {
+    font-size: 60px;
+    line-height: 60.35px;
+    text-align: center;
+}
+
+.slider-button {
+    font: inherit;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ec593c;
+    border: none;
+}
+
+.slider-button:hover,
+.slider-button:focus{
+    background-color: #f38367;
+}
+
+.slider-button:active{
+
+}
