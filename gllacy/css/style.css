@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#849d8f;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.user-navigation,
+.main-navigation,
+.site-navigation,
+.catalog-navigation
+ {
+    list-style: none;
+}
+
+.main-navigation{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.catalog-navigation{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.main-navigation a{
+    color:#ffffff;
+}
