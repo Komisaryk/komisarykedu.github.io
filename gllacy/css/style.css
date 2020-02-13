@@ -80,6 +80,30 @@ a {
 .hit-text a{
     color: #ffffff;
 }
+
+.privilege {
+    background-color: #ece0c2;
+    background-image: url(../img/waffles.jpg);
+    color: #323232;
+    
+}
+
+.privilege h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.privilege-list {
+    list-style: none;
+}
+
+.new {
+    background-color: #ffffff;
+    background-image: url(../img/strawberry.jpg);
+    color: #323232;
+        
+}
+
 .slider-button:active{
 
 }
@@ -105,6 +129,14 @@ a {
     line-height: 24px;
     font-weight: 700;
     
+}
+.price {
+    font-size: 30px;
+    line-height: 45px;
+}
+.hit-price {
+    font-size: 45px;
+    line-height: 45px;
 }
 
 .feedback-button {
