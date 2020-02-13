@@ -74,6 +74,48 @@ a {
     background-color: #f38367;
 }
 
+.hit-list {
+    list-style: none;
+}
+.hit-text a{
+    color: #ffffff;
+}
 .slider-button:active{
 
 }
+.feedback {
+    background-color: #fdfefe;
+    color: #323232;
+}
+
+.feedback h5{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.feedback p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.adress {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    
+}
+
+.feedback-button {
+    text-align: center;
+    background-color: #f16642;
+    color: #fefefe;
+    vertical-align: middle;
+    border-bottom: none;
+    box-shadow: 0 0 3px rgb(0,0,0) inset;
+}
+.feedback-button:hover{
+    background-color: #f28166;
+}
+
