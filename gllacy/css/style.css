@@ -1,153 +1,159 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color:#849d8f;
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 400;
-    color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-color: #849d8f;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .user-navigation,
 .main-navigation,
 .site-navigation,
-.catalog-navigation
- {
-    list-style: none;
+.catalog-navigation {
+  list-style: none;
 }
 
-.main-navigation{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    color: #ffffff;
+.main-navigation {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
 }
 
-.catalog-navigation{
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 400;
+.catalog-navigation {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
 }
 
-.main-navigation a{
-    color:#ffffff;
+.main-navigation a {
+  color: #ffffff;
 }
 
 .work-time {
-    font-weight: 700;
-    text-align: right;
+  font-weight: 700;
+  text-align: right;
 }
 
 .phone-number {
-    font-size: 22px;
-    line-height: 24px;
+  font-size: 22px;
+  line-height: 24px;
 }
 
 .slider-list {
-    list-style: none;
+  list-style: none;
 }
 
 .slider-text {
-    font-size: 60px;
-    line-height: 60.35px;
-    text-align: center;
+  font-size: 60px;
+  line-height: 60.35px;
+  text-align: center;
 }
 
 .slider-button {
-    font: inherit;
-    font-size: 32px;
-    line-height: 44px;
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-    background-color: #ec593c;
-    border: none;
+  font: inherit;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ec593c;
+  border: none;
 }
 
 .slider-button:hover,
-.slider-button:focus{
-    background-color: #f38367;
+.slider-button:focus {
+  background-color: #f38367;
 }
 
 .hit-list {
-    list-style: none;
+  list-style: none;
 }
-.hit-text a{
-    color: #ffffff;
+.hit-text a {
+  color: #ffffff;
+}
+.hit-product {
+  display: inline-block;
 }
 
 .privilege {
-    background-color: #ece0c2;
-    background-image: url(../img/waffles.jpg);
-    color: #323232;
-    
+  
+  background-color: #ece0c2;
+  background-image: url(../img/waffles.jpg);
+  color: #323232;
 }
 
-.privilege h3{
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 500;
+.privilege h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
 }
 .privilege-list {
-    list-style: none;
+  list-style: none;
 }
 
 .new {
-    background-color: #ffffff;
-    background-image: url(../img/strawberry.jpg);
-    color: #323232;
-        
+    display: inline-block;
+    width:866px;
+  background-color: #ffffff;
+  background-image: url(../img/strawberry.jpg);
+  color: #323232;
 }
 
-.slider-button:active{
-
+.subscribe {
+    display: inline-block;
+  width:866px;
+  background-color: #f8f7f4;
+  color: #5a5a5a;
+}
+.slider-button:active {
 }
 .feedback {
-    background-color: #fdfefe;
-    color: #323232;
+  background-color: #fdfefe;
+  color: #323232;
 }
 
-.feedback h5{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-bottom: 0px;
+.feedback h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0px;
 }
 
-.feedback p{
-    font-size: 14px;
-    line-height: 22px;
+.feedback p {
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .adress {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 700;
-    
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
 }
 .price {
-    font-size: 30px;
-    line-height: 45px;
+  font-size: 30px;
+  line-height: 45px;
 }
 .hit-price {
-    font-size: 45px;
-    line-height: 45px;
+  font-size: 45px;
+  line-height: 45px;
 }
 
 .feedback-button {
-    text-align: center;
-    background-color: #f16642;
-    color: #fefefe;
-    vertical-align: middle;
-    border-bottom: none;
-    box-shadow: 0 0 3px rgb(0,0,0) inset;
+  text-align: center;
+  background-color: #f16642;
+  color: #fefefe;
+  vertical-align: middle;
+  border-bottom: none;
+  box-shadow: 0 0 3px rgb(0, 0, 0) inset;
 }
-.feedback-button:hover{
-    background-color: #f28166;
+.feedback-button:hover {
+  background-color: #f28166;
 }
-
