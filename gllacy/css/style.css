@@ -7,6 +7,9 @@ body {
   line-height: 22px;
   font-weight: 400;
   color: #ffffff;
+  margin: 0 auto;
+  padding: 0 27px;
+  width: 1200px;
 }
 
 a {
@@ -19,12 +22,17 @@ a {
 .catalog-navigation {
   list-style: none;
 }
-
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1146px;
+}
 .main-navigation {
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
+  width: 676px;
 }
 
 .catalog-navigation {
@@ -32,12 +40,20 @@ a {
   line-height: 16px;
   font-weight: 400;
 }
-
+.user-navigation-container {
+  width: 265px;
+  margin-left: auto;
+}
 .main-navigation a {
   color: #ffffff;
 }
 
+.main-header-logo {
+  width: 160px;
+}
 .work-time {
+  width: 265px;
+  margin-left: auto;
   font-weight: 700;
   text-align: right;
 }
@@ -67,6 +83,22 @@ a {
   background-color: #ec593c;
   border: none;
 }
+.share {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+.share-1 {
+  width: 560px;
+  min-height: 230px;
+  background-image: url(/img/raspberry.jpg);
+}
+.share-2 {
+  width: 560px;
+  min-height: 230px;
+  background-image: url(/img/shoko.jpg);
+}
 
 .slider-button:hover,
 .slider-button:focus {
@@ -84,7 +116,6 @@ a {
 }
 
 .privilege {
-  
   background-color: #ece0c2;
   background-image: url(../img/waffles.jpg);
   color: #323232;
@@ -100,16 +131,16 @@ a {
 }
 
 .new {
-    display: inline-block;
-    width:866px;
+  display: inline-block;
+  width: 866px;
   background-color: #ffffff;
   background-image: url(../img/strawberry.jpg);
   color: #323232;
 }
 
 .subscribe {
-    display: inline-block;
-  width:866px;
+  display: inline-block;
+  width: 866px;
   background-color: #f8f7f4;
   color: #5a5a5a;
 }
