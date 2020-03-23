@@ -8,14 +8,60 @@ body {
   font-weight: 400;
   color: #ffffff;
   margin: 0 auto;
-  padding: 0 27px;
+
+  width: 1200px;
+}
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter-sort {
+  width: 195px;
+}
+.filter-price {
+  width: 220px;
+}
+.filter-fat {
+  width: 410px;
+}
+.filter-add {
+  width: 705px;
+}
+.filter-button {
+  width: 125px;
+}
+.inner-page {
+  margin: 0;
+  padding: 0;
+  background-color: #849d8f;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 auto;
+
   width: 1200px;
 }
 
 a {
   text-decoration: none;
 }
-
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.catalog-item {
+  width: 267px;
+  min-height: 330px;
+}
+.pagination-list {
+  display: flex;
+  width: 190px;
+  justify-content: space-between;
+  list-style: none;
+}
 .user-navigation,
 .main-navigation,
 .site-navigation,
@@ -26,6 +72,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   width: 1146px;
+  padding: 0 27px;
 }
 .main-navigation {
   font-weight: 700;
@@ -86,8 +133,11 @@ a {
 .share {
   display: flex;
   justify-content: space-between;
-  margin-left: 27px;
-  margin-right: 27px;
+  margin: 0;
+  padding: 0;
+  width: 1146px;
+  margin-bottom: 40px;
+  padding: 0 27px;
 }
 .share-1 {
   width: 560px;
@@ -106,41 +156,70 @@ a {
 }
 
 .hit-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
   list-style: none;
+  padding: 0 27px;
+  margin-bottom: 40px;
 }
 .hit-text a {
   color: #ffffff;
 }
+.hit-text {
+  margin: 0;
+  padding: 0;
+}
 .hit-product {
-  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: 26px;
+  width: 267px;
 }
 
 .privilege {
+  padding: 20px;
+  width: 1146px;
+  margin: 0 27px;
+  margin-bottom: 40px;
   background-color: #ece0c2;
   background-image: url(../img/waffles.jpg);
   color: #323232;
+  box-sizing: border-box;
 }
 
 .privilege h3 {
   font-size: 24px;
   line-height: 30px;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 .privilege-list {
-  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.privilege-item {
+  width: 540px;
+  margin-right: 25px;
+  padding-bottom: 10px;
+}
+.privilege-item:nth-child(2n) {
+  margin-right: 0;
+}
 .new {
-  display: inline-block;
-  width: 866px;
+  width: 560px;
+  min-height: 220px;
   background-color: #ffffff;
   background-image: url(../img/strawberry.jpg);
   color: #323232;
 }
 
 .subscribe {
-  display: inline-block;
-  width: 866px;
+  width: 560px;
+  min-height: 220px;
   background-color: #f8f7f4;
   color: #5a5a5a;
 }
@@ -149,20 +228,41 @@ a {
 .feedback {
   background-color: #fdfefe;
   color: #323232;
+  width: 300px;
+  padding: 25px 30px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 63px;
+  right: 27px;
 }
-
+.new-subscribe {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 1146px;
+  margin: 0 27px;
+  margin-bottom: 40px;
+}
 .feedback h5 {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 0px;
 }
+.map-container {
+  position: relative;
+}
 
+footer {
+  display: flex;
+}
 .feedback p {
   font-size: 14px;
   line-height: 22px;
 }
-
+body.map {
+  padding: 0 0;
+}
 .adress {
   font-size: 18px;
   line-height: 24px;
