@@ -50,11 +50,16 @@ a {
 .catalog-list {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
+  width: 1146px;
+  margin: 0;
+  padding: 0;
 }
 .catalog-item {
+  margin: 0;
+  padding: 0;
   width: 267px;
   min-height: 330px;
+  
 }
 .pagination-list {
   display: flex;
