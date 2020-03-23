@@ -40,7 +40,7 @@ body {
   font-weight: 400;
   color: #ffffff;
   margin: 0 auto;
-
+  padding: 0 27px;
   width: 1200px;
 }
 
@@ -59,13 +59,13 @@ a {
   padding: 0;
   width: 267px;
   min-height: 330px;
-  
 }
 .pagination-list {
   display: flex;
   width: 190px;
   justify-content: space-between;
   list-style: none;
+  margin-left: auto;
 }
 .user-navigation,
 .main-navigation,
