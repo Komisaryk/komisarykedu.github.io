@@ -604,18 +604,62 @@ input[type="radio"].visually-hidden {
 
   background-color: #ffffff;
 }
-
+.modal-login {
+  width:300px;
+  padding: 50px 80px;
+  top:120px;
+  left:50%;
+  margin-left: -230px;
+}
+.modal-close {
+  width: 22px;
+  height: 22px;
+  font-size: 0;
+  position: absolute;
+  top: 0;
+  right: -34px;
+  background-color: transparent;
+  border: 0;
+}
+.modal-close::before,
+.modal-close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 19px;
+  height: 4px;
+  background-color: #d0d0d0;
+}
+.modal-close::before {
+  transform: rotate(45deg);
+}
+.modal-close::after {
+  transform: rotate(-45deg);
+}
 .modal {
+  position: fixed;
   color: #000000;
   background-color: #f8f3f0;
   background-image: url("../img/pattern-light.jpg");
   background-position: 0 0;
   background-repeat: repeat;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
 .modal h2 {
+  margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 42px;
+}
+.modal-description {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.login-form p {
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .login-form input[type="text"],
@@ -625,10 +669,24 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
   background-color: #f9f6f3;
   border: 2px solid #000000;
+  width: 300px;
+  padding: 10px 15px;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
-
+.login-icon-user {
+  background: url("/img/user.png") 270px center no-repeat;
+}
+.login-icon-password {
+  background: url("/img/lock.png") 270px center no-repeat;
+}
 .login-form input:focus {
   border-color: #663d15;
+}
+.login-password-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
 }
 
 .login-checkbox:hover,
