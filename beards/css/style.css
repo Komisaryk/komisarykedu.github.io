@@ -25,12 +25,16 @@ body {
 .inner-page .main-header {
   margin-bottom: 50px;
   background-color: #000000;
+  margin:0;
+  padding: 0;
+  
 }
 .inner-page .main-header-logo {
   width: 111px;
   height: 24px;
   padding: 23px 20px;
   order: 0;
+  margin:0;
 }
 .inner-page .main-navigation {
   align-items: flex-start;
@@ -109,7 +113,18 @@ a {
   flex-wrap: wrap;
   list-style: none;
 }
-
+.site-navigation-current {
+  position: relative;
+}
+.site-navigation-current::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  right: 20px;
+  left: 20px;
+  bottom:0;
+  background-color: #fff;
+}
 .user-navigation {
   margin: 0;
   padding: 0;
@@ -356,7 +371,15 @@ input[type="radio"].visually-hidden {
   line-height: 42px;
 }
 .breadcrumbs {
+  margin: 0;
   margin-bottom: 50px;
+  
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.breadcrumbs li {
+  margin-right: 20px;
 }
 .breadcrumbs a {
   color: #000000;
@@ -638,6 +661,7 @@ input[type="radio"].visually-hidden {
   transform: rotate(-45deg);
 }
 .modal {
+  display: none;
   position: fixed;
   color: #000000;
   background-color: #f8f3f0;
@@ -731,6 +755,19 @@ input[type="radio"].visually-hidden {
   width: 100%;
   margin-right: 0;
 }
+.modal-map {
+  top:50%;
+  left:50%;
+  width: 766px;
+  height: 561px;
+  margin-top: -280px;
+  margin-left: -390px;
+  border: 7px solid white;
+}
+.modal-map p {
+  margin: 0;
+}
+
 
 .restore {
   color: #000000;
